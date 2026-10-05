@@ -2,6 +2,7 @@
 
 import json
 import sqlite3
+from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -49,9 +50,9 @@ def connect(path: Path):
 
 
 def record(path, release_id, probability, elapsed_ms, source, features):
-    with connect(path) as con:
+    with closing(connect(path)) as con:
         con.execute(
-            "INSERT INTO predictions(timestamp,release_id,probability,elapsed_ms,source,features) VALUES (?,?,?,?,?,?,?)",
+            "INSERT INTO predictions(timestamp,release_id,probability,elapsed_ms,source,features) VALUES (?,?,?,?,?,?)",
             (
                 datetime.now(timezone.utc).isoformat(),
                 release_id,
@@ -61,10 +62,11 @@ def record(path, release_id, probability, elapsed_ms, source, features):
                 json.dumps(features, allow_nan=False),
             ),
         )
+        con.commit()
 
 
 def summarize(path, reference, release_id):
-    with connect(path) as con:
+    with closing(connect(path)) as con:
         total = con.execute(
             "SELECT COUNT(*) FROM predictions WHERE release_id=?", (release_id,)
         ).fetchone()[0]

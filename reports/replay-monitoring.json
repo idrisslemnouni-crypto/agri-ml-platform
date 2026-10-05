@@ -1,0 +1,42 @@
+{
+  "total_accepted": 40,
+  "window_n": 40,
+  "source_counts": {
+    "historical-replay": 40
+  },
+  "latency_p50_ms": 24.89895000053366,
+  "latency_p95_ms": 26.115465000111726,
+  "feature_psi": {
+    "SOIL_MOISTURE_5_DAILY": 7.55100751859617,
+    "SOIL_MOISTURE_10_DAILY": 8.949311453436106,
+    "P_DAILY_CALC": 0.04093301388664977,
+    "T_DAILY_AVG": 6.643154587722518,
+    "RH_DAILY_AVG": 4.424010619830497,
+    "SOLARAD_DAILY": 5.4825577246272,
+    "soil10_lag1": 9.021711399865854,
+    "soil10_lag7": null,
+    "doy_sin": 8.936150360100367,
+    "doy_cos": 9.059116482790504,
+    "SOIL_MOISTURE_5_DAILY_mean7": null,
+    "SOIL_MOISTURE_10_DAILY_mean7": null,
+    "P_DAILY_CALC_mean7": 3.0093546825186466,
+    "T_DAILY_AVG_mean7": 8.077614698130422,
+    "RH_DAILY_AVG_mean7": 8.400602173843534,
+    "SOLARAD_DAILY_mean7": 9.45329094979074
+  },
+  "heuristic_shift_alerts": [
+    "SOIL_MOISTURE_5_DAILY",
+    "SOIL_MOISTURE_10_DAILY",
+    "T_DAILY_AVG",
+    "RH_DAILY_AVG",
+    "SOLARAD_DAILY",
+    "soil10_lag1",
+    "doy_sin",
+    "doy_cos",
+    "P_DAILY_CALC_mean7",
+    "T_DAILY_AVG_mean7",
+    "RH_DAILY_AVG_mean7",
+    "SOLARAD_DAILY_mean7"
+  ],
+  "scope": "PSI is a population-shift diagnostic; no observed live target or accuracy-drift measurement"
+}

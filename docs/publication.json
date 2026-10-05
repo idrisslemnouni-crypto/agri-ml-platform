@@ -1,0 +1,21 @@
+{
+  "description": "Local agricultural ML release, experiment tracking, strict API and historical-replay monitoring",
+  "topics": [
+    "agriculture",
+    "fastapi",
+    "mlflow",
+    "mlops",
+    "monitoring",
+    "data-science"
+  ],
+  "issues": [
+    {
+      "title": "Verify container build and mounted-model execution",
+      "body": "Docker was unavailable locally. Run supplied build/smoke CI and verify a trusted prepared model mount, health and one real request; record actual results."
+    },
+    {
+      "title": "Evaluate monitoring against delayed field outcomes",
+      "body": "Current PSI is descriptive input variation on a historical replay. Collect independent field outcomes and assess error drift before considering automatic retraining."
+    }
+  ]
+}

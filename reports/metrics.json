@@ -1,0 +1,152 @@
+{
+  "config": {
+    "seed": 42,
+    "proxy_threshold_m3_m3": 0.2,
+    "train_stations": [
+      "IA_Des_Moines_17_E",
+      "MO_Chillicothe_22_ENE"
+    ],
+    "holdout_station": "IL_Champaign_9_SW",
+    "train_target_end": "2021-12-31",
+    "validation_target_year": 2022,
+    "test_target_start": "2023-01-01",
+    "probability_thresholds": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ]
+  },
+  "data": {
+    "observed_rows": 9864,
+    "stations": [
+      "IA_Des_Moines_17_E",
+      "IL_Champaign_9_SW",
+      "MO_Chillicothe_22_ENE"
+    ],
+    "missing_fraction": {
+      "SOIL_MOISTURE_5_DAILY": 0.18248175182481752,
+      "SOIL_MOISTURE_10_DAILY": 0.15784671532846714,
+      "P_DAILY_CALC": 0.03882806163828062,
+      "T_DAILY_AVG": 0.020884022708840228
+    },
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "retained_rows": 8230,
+  "selection_metric": "validation positive-class F1",
+  "selected_on_validation": "random_forest",
+  "thresholds_from_validation": {
+    "logistic": 0.8,
+    "random_forest": 0.5
+  },
+  "validation": {
+    "logistic": {
+      "positive_f1": 0.8888888888888888,
+      "precision": 0.9090909090909091,
+      "recall": 0.8695652173913043,
+      "balanced_accuracy": 0.927562392089154,
+      "pr_auc": 0.9721781982740915,
+      "prevalence": 0.14241486068111456,
+      "n": 323,
+      "positive_n": 46,
+      "false_alarms": 4
+    },
+    "random_forest": {
+      "positive_f1": 0.968421052631579,
+      "precision": 0.9387755102040817,
+      "recall": 1.0,
+      "balanced_accuracy": 0.9945848375451263,
+      "pr_auc": 0.996257770359347,
+      "prevalence": 0.14241486068111456,
+      "n": 323,
+      "positive_n": 46,
+      "false_alarms": 3
+    },
+    "persistence": {
+      "positive_f1": 0.967741935483871,
+      "precision": 0.9574468085106383,
+      "recall": 0.9782608695652174,
+      "balanced_accuracy": 0.9855203264793596,
+      "pr_auc": 0.9397287226882575,
+      "prevalence": 0.14241486068111456,
+      "n": 323,
+      "positive_n": 46,
+      "false_alarms": 2
+    }
+  },
+  "test": {
+    "persistence": {
+      "positive_f1": 0.9117647058823529,
+      "precision": 0.9117647058823529,
+      "recall": 0.9117647058823529,
+      "balanced_accuracy": 0.9458823529411764,
+      "pr_auc": 0.8476192267188204,
+      "prevalence": 0.18478260869565216,
+      "n": 552,
+      "positive_n": 102,
+      "false_alarms": 9
+    },
+    "logistic": {
+      "positive_f1": 0.916256157635468,
+      "precision": 0.9207920792079208,
+      "recall": 0.9117647058823529,
+      "balanced_accuracy": 0.9469934640522876,
+      "pr_auc": 0.963756972263804,
+      "prevalence": 0.18478260869565216,
+      "n": 552,
+      "positive_n": 102,
+      "false_alarms": 8
+    },
+    "random_forest": {
+      "positive_f1": 0.9302325581395349,
+      "precision": 0.8849557522123894,
+      "recall": 0.9803921568627451,
+      "balanced_accuracy": 0.9757516339869281,
+      "pr_auc": 0.9508074484273081,
+      "prevalence": 0.18478260869565216,
+      "n": 552,
+      "positive_n": 102,
+      "false_alarms": 13
+    }
+  },
+  "units": "Soil moisture m3/m3; label is an exploratory threshold proxy, not observed irrigation or crop stress",
+  "split_sizes": {
+    "train": 3971,
+    "validation": 323,
+    "test": 552
+  },
+  "feature_names": [
+    "SOIL_MOISTURE_5_DAILY",
+    "SOIL_MOISTURE_10_DAILY",
+    "P_DAILY_CALC",
+    "T_DAILY_AVG",
+    "RH_DAILY_AVG",
+    "SOLARAD_DAILY",
+    "soil10_lag1",
+    "soil10_lag7",
+    "doy_sin",
+    "doy_cos",
+    "SOIL_MOISTURE_5_DAILY_mean7",
+    "SOIL_MOISTURE_10_DAILY_mean7",
+    "P_DAILY_CALC_mean7",
+    "T_DAILY_AVG_mean7",
+    "RH_DAILY_AVG_mean7",
+    "SOLARAD_DAILY_mean7"
+  ],
+  "model_sha256": "250f1f41e159815eb884e62f63460495631ac6aa10976b1e0d7ae4d07e04e25d"
+}
