@@ -1,0 +1,7 @@
+# Design — Reproducible model-to-service platform
+
+Operationalize the completed measured-soil screening model, rather than invent a new dataset/model task. Vendored MIT benchmark/data code reproduces the exact prior station/time experiment. Its metrics are reused evidence, not a second independent agronomic validation.
+
+Prepare a release only when validation-selected RF still beats the validation persistence F1, and source hashes/schema are consistent. Record local MLflow experiment parameters, metrics, provenance and artifact; a small JSON release registry links model hash, feature schema, reference distributions and MLflow run. This is a local registry, not a remote MLflow Model Registry service. Serve only trusted locally trained joblib artifacts after checksum verification. Invalid/missing release yields health 503.
+
+FastAPI strict exact feature schema, finite numeric values and physical bounds. Local UI loads a real example and displays probabilities/scope. SQLite records accepted requests, latency and source tags. Monitoring reports window size, latency and feature PSI against train-only distributions; thresholds are heuristics and do not establish performance drift. Replay held-out historical rows explicitly, not simulated live farm traffic. Dockerfile/CI describe a no-artifact service smoke check, without claiming Docker ran locally when unavailable. Source reproduction, API contracts, tracking record and UI verification precede daily publication.

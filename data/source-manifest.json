@@ -1,0 +1,218 @@
+[
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2016,
+    "file": "CRND0103-2016-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2016/CRND0103-2016-IA_Des_Moines_17_E.txt",
+    "sha256": "f850a791b55f767545396e716f05c2bc9dc1481aebc74eb9a0054e63103d5c01",
+    "bytes": 79422
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2017,
+    "file": "CRND0103-2017-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2017/CRND0103-2017-IA_Des_Moines_17_E.txt",
+    "sha256": "cb8dd7573740563b6edd8b2b34ffd12158566d5ef2b9f5aceab69410b2dd832d",
+    "bytes": 79205
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2018,
+    "file": "CRND0103-2018-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2018/CRND0103-2018-IA_Des_Moines_17_E.txt",
+    "sha256": "f9ce125b96a004827c3f4a5aa3c5b1e1c8e7a9b100cc21bd1b5d0e4d4a9c2b6e",
+    "bytes": 79205
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2019,
+    "file": "CRND0103-2019-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2019/CRND0103-2019-IA_Des_Moines_17_E.txt",
+    "sha256": "f2b247003b1f0ce109c863582d4e1babe2500c79a2021a3e95d8e99e1d7f05a0",
+    "bytes": 79205
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2020,
+    "file": "CRND0103-2020-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2020/CRND0103-2020-IA_Des_Moines_17_E.txt",
+    "sha256": "882732b2e4cc546c51bf602f836664ebe6cda7718aab7b0a0d639518a92f0e8b",
+    "bytes": 79422
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2021,
+    "file": "CRND0103-2021-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2021/CRND0103-2021-IA_Des_Moines_17_E.txt",
+    "sha256": "1d65761e34f5536f47391a68855a95a182cf3f71c1f58c64e7aa4a9425bb2e50",
+    "bytes": 79205
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2022,
+    "file": "CRND0103-2022-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2022/CRND0103-2022-IA_Des_Moines_17_E.txt",
+    "sha256": "502e6e5c274796ccdddf7d3c77d56f57d6fe477ac2aa7029b26993b464761b9f",
+    "bytes": 79205
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2023,
+    "file": "CRND0103-2023-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2023/CRND0103-2023-IA_Des_Moines_17_E.txt",
+    "sha256": "31948a798161f2e73ec5d69c35f87108616a6d36c518d1d584051499a54ade6f",
+    "bytes": 79205
+  },
+  {
+    "station": "IA_Des_Moines_17_E",
+    "year": 2024,
+    "file": "CRND0103-2024-IA_Des_Moines_17_E.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2024/CRND0103-2024-IA_Des_Moines_17_E.txt",
+    "sha256": "a3992fb4d7f22252fe13ee986758066426dc8ec1e627c59c55341cdc64c0ecc6",
+    "bytes": 79422
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2016,
+    "file": "CRND0103-2016-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2016/CRND0103-2016-MO_Chillicothe_22_ENE.txt",
+    "sha256": "a3bbedaf26785d0a3c76d16e9f53270c95742e1f0d89d61994dbc7a90d0d3679",
+    "bytes": 79422
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2017,
+    "file": "CRND0103-2017-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2017/CRND0103-2017-MO_Chillicothe_22_ENE.txt",
+    "sha256": "0a41eba3f87ef1f1c8e2b38e0aaf4e3e2b5a3012089e2a73497e016abe69158c",
+    "bytes": 79205
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2018,
+    "file": "CRND0103-2018-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2018/CRND0103-2018-MO_Chillicothe_22_ENE.txt",
+    "sha256": "df931252cfa3f0850083de722539fd1bf360aaf1aa971ac7d665362e171847e5",
+    "bytes": 79205
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2019,
+    "file": "CRND0103-2019-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2019/CRND0103-2019-MO_Chillicothe_22_ENE.txt",
+    "sha256": "37928c8b31b98c9892c2643f8c0e5f276a8057f9094df259a4bbe7ff46a86872",
+    "bytes": 79205
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2020,
+    "file": "CRND0103-2020-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2020/CRND0103-2020-MO_Chillicothe_22_ENE.txt",
+    "sha256": "61af4c18e8b4d6c87525672eedcf03490c2826c82abe8927bb9f83142453cf5c",
+    "bytes": 79422
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2021,
+    "file": "CRND0103-2021-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2021/CRND0103-2021-MO_Chillicothe_22_ENE.txt",
+    "sha256": "b1bcd874f11c441d82d65908a8515ae1ebb9187c09f12bd9ee9b736812b24976",
+    "bytes": 79205
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2022,
+    "file": "CRND0103-2022-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2022/CRND0103-2022-MO_Chillicothe_22_ENE.txt",
+    "sha256": "e8b682862de353ebb9dbc05aacba4f53f272e40a6d8f68c28112cdd7e73e09aa",
+    "bytes": 79205
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2023,
+    "file": "CRND0103-2023-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2023/CRND0103-2023-MO_Chillicothe_22_ENE.txt",
+    "sha256": "696f0f6cf72d52815b5c0dd56c5a482b86dc84c2ffc17a215dc5b8fb8858e05f",
+    "bytes": 79205
+  },
+  {
+    "station": "MO_Chillicothe_22_ENE",
+    "year": 2024,
+    "file": "CRND0103-2024-MO_Chillicothe_22_ENE.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2024/CRND0103-2024-MO_Chillicothe_22_ENE.txt",
+    "sha256": "73a35d585de6edf7cf38eec0e8e0cacb52593bd4eaa79f585e2b3b3b8a121fc2",
+    "bytes": 79422
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2016,
+    "file": "CRND0103-2016-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2016/CRND0103-2016-IL_Champaign_9_SW.txt",
+    "sha256": "6cd2afa56b7a87e53b0333d16fa430352b2e982edf0cb7d1e4ad3a3f2e0db2dc",
+    "bytes": 79422
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2017,
+    "file": "CRND0103-2017-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2017/CRND0103-2017-IL_Champaign_9_SW.txt",
+    "sha256": "29029dbb6e1b3e99e1ba7b7156754385ce54c1f1adae9cb4426c67c25332d5be",
+    "bytes": 79205
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2018,
+    "file": "CRND0103-2018-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2018/CRND0103-2018-IL_Champaign_9_SW.txt",
+    "sha256": "2cc6fe5f8d758d662c447fd49814b53440735fb3af99a77e0f7c6dcba36095e5",
+    "bytes": 79205
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2019,
+    "file": "CRND0103-2019-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2019/CRND0103-2019-IL_Champaign_9_SW.txt",
+    "sha256": "283209b86a259ea52b41420ed654e010d1c08a72013768423b744bcbc033a3ef",
+    "bytes": 79205
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2020,
+    "file": "CRND0103-2020-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2020/CRND0103-2020-IL_Champaign_9_SW.txt",
+    "sha256": "fa51d6c2b97f3492df96e7ce1cb1f8440a199e06cb79308a62e787c19e33ebd8",
+    "bytes": 79422
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2021,
+    "file": "CRND0103-2021-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2021/CRND0103-2021-IL_Champaign_9_SW.txt",
+    "sha256": "fef60393dc4d70bccbf939e1c78241dad4400a456438c269a26e64274edc51f1",
+    "bytes": 79205
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2022,
+    "file": "CRND0103-2022-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2022/CRND0103-2022-IL_Champaign_9_SW.txt",
+    "sha256": "37dfd3ca369ea2bd0aca77dc5ec23069152747e7122d88ebd0bee2df55faea00",
+    "bytes": 79205
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2023,
+    "file": "CRND0103-2023-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2023/CRND0103-2023-IL_Champaign_9_SW.txt",
+    "sha256": "96785d765e1c57fb796597f2e05e8397bd875ad715a49256e48fdec175658054",
+    "bytes": 79205
+  },
+  {
+    "station": "IL_Champaign_9_SW",
+    "year": 2024,
+    "file": "CRND0103-2024-IL_Champaign_9_SW.txt",
+    "url": "https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2024/CRND0103-2024-IL_Champaign_9_SW.txt",
+    "sha256": "71d004e8fd5eeee3ce3e79221797c2bfc40bcbcf149c9d1b18d687d6a466ba8d",
+    "bytes": 79422
+  }
+]
