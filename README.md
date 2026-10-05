@@ -46,3 +46,8 @@ Open http://127.0.0.1:8002 and /docs. Run from the repository directory or set A
 A Dockerfile and build/smoke CI job are supplied. Docker is unavailable on the verification machine: local image build and container execution are **unverified**. Once verified, mount locally prepared trusted models into /app/models and use AGRI_ROOT=/app. Public/cloud deployment, authentication and service availability are not implemented. CI is pending scheduled GitHub publication.
 
 Development assisted by AI. Results come from executed code and public source data; the author should understand the supplied learning notes before presenting this portfolio.
+
+
+## GitHub publication
+
+[Public repository](https://github.com/idrisslemnouni-crypto/agri-ml-platform) · [Current CI results](https://github.com/idrisslemnouni-crypto/agri-ml-platform/actions). Published following the user's explicit 5 October 2026 request to release the prepared portfolio together. Earlier local-verification notes describe the pre-publication checkpoint. Raw sources and trained artifacts remain excluded from Git; reproduction commands regenerate them.
