@@ -11,3 +11,4 @@ data/processed/
 models/
 *.zip
 *.log
+mlruns/
