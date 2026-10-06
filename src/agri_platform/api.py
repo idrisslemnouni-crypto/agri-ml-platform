@@ -127,13 +127,14 @@ def create_app(root: Path):
         }
 
     @app.get("/monitoring")
-    def monitoring():
+    def monitoring(source: Literal["all", "manual", "historical-replay"] = "all"):
         if app.state.release is None:
             raise HTTPException(503, "No verified local release")
         return summarize(
             root / "models/telemetry.sqlite",
             app.state.release["reference_distributions"],
             app.state.release["release_id"],
+            source=source,
         )
 
     return app

@@ -43,7 +43,7 @@ python -m uvicorn agri_platform.api:app --host 127.0.0.1 --port 8002
 
 Open http://127.0.0.1:8002 and /docs. Run from the repository directory or set AGRI_ROOT to its absolute path. Source cache, tracking store, SQLite log and models are saved locally and excluded from Git. Replays append to the log; rerunning them changes request counts. Start from a clean clone for the reported 40-request demonstration.
 
-A Dockerfile and build/smoke CI job are supplied. Docker is unavailable on the verification machine: local image build and container execution are **unverified**. Once verified, mount locally prepared trusted models into /app/models and use AGRI_ROOT=/app. Public/cloud deployment, authentication and service availability are not implemented. CI is pending scheduled GitHub publication.
+A Dockerfile and build/smoke CI job are supplied. Docker is unavailable on the verification machine: local image build and container execution are **unverified**. Remote build/smoke evidence is available in GitHub Actions. Mount locally prepared trusted models into /app/models and use AGRI_ROOT=/app. Public/cloud deployment, authentication and service availability are not implemented.
 
 Development assisted by AI. Results come from executed code and public source data; the author should understand the supplied learning notes before presenting this portfolio.
 
@@ -51,3 +51,9 @@ Development assisted by AI. Results come from executed code and public source da
 ## GitHub publication
 
 [Public repository](https://github.com/idrisslemnouni-crypto/agri-ml-platform) · [Current CI results](https://github.com/idrisslemnouni-crypto/agri-ml-platform/actions). Published following the user's explicit 5 October 2026 request to release the prepared portfolio together. Earlier local-verification notes describe the pre-publication checkpoint. Raw sources and trained artifacts remain excluded from Git; reproduction commands regenerate them.
+
+## Monitoring populations — 6 October 2026
+
+The dashboard defaults to manual requests and lets you inspect historical replay or the combined population. `/monitoring?source=manual` and `source=historical-replay` filter by release **before** selecting the most recent 300 accepted requests. Counts and PSI therefore describe the selected population; a large replay cannot displace manual observations from their own window. The API default `source=all` preserves existing clients. Unsupported source values return 422.
+
+Tests use deliberately different manual and replay distributions to verify this isolation, including empty populations and other release IDs. PSI remains a marginal distribution diagnostic requiring at least 30 finite values per feature. A low PSI or no alert provides no evidence of target accuracy or field suitability. Historical model predictions and experiment reports are unchanged.

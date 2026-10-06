@@ -65,20 +65,28 @@ def record(path, release_id, probability, elapsed_ms, source, features):
         con.commit()
 
 
-def summarize(path, reference, release_id):
+def summarize(path, reference, release_id, source="all"):
+    if source not in {"all", "manual", "historical-replay"}:
+        raise ValueError("Unsupported monitoring source")
+    predicate = "release_id=?"
+    parameters = (release_id,)
+    if source != "all":
+        predicate += " AND source=?"
+        parameters += (source,)
     with closing(connect(path)) as con:
         total = con.execute(
-            "SELECT COUNT(*) FROM predictions WHERE release_id=?", (release_id,)
+            f"SELECT COUNT(*) FROM predictions WHERE {predicate}", parameters
         ).fetchone()[0]
         rows = con.execute(
-            "SELECT probability,elapsed_ms,source,features FROM predictions WHERE release_id=? ORDER BY id DESC LIMIT 300",
-            (release_id,),
+            f"SELECT probability,elapsed_ms,source,features FROM predictions WHERE {predicate} ORDER BY id DESC LIMIT 300",
+            parameters,
         ).fetchall()
     counts = {}
     for row in rows:
         counts[row[2]] = counts.get(row[2], 0) + 1
     if not rows:
         return {
+            "selected_source": source,
             "total_accepted": total,
             "window_n": 0,
             "source_counts": counts,
@@ -92,6 +100,7 @@ def summarize(path, reference, release_id):
     }
     latency = np.array([r[1] for r in rows])
     return {
+        "selected_source": source,
         "total_accepted": total,
         "window_n": len(rows),
         "source_counts": counts,
